@@ -16,7 +16,13 @@ function createHTMLEl(event){
     containter.append(initBox, healthBox, nameBox)
     console.log(healthInput.value, nameInput.value, initInput.value)
     console.log(initBox, healthBox, nameBox)
+    function sortByInit(initBox){
+        
+    }
 }
+
+
+
 
 document
 .addEventListener('submit', createHTMLEl)
